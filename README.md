@@ -100,6 +100,8 @@ Aplica **11 técnicas lingüísticas** en un único pase de reescritura y genera
 **Tipografía:**
 Guiones largos (—) → siempre reemplazados por paréntesis o coma
 
+Ver la tabla completa de sustituciones con alternativas concretas en [SUBSTITUTIONS.md](SUBSTITUTIONS.md).
+
 ---
 
 ## Fundamento técnico
