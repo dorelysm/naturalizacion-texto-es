@@ -118,7 +118,7 @@ Ver todas las referencias en [REFERENCES.md](.claude/skills/naturalizacion-texto
 
 ## Diferencia con "humanizar texto IA"
 
-| | humanizar-texto-es | naturalizacion-texto-es |
+| | [humanizar-texto-es](https://github.com/majiayu000/claude-skill-registry/blob/main/skills/productivity/humanizar-texto-es-toniperea-humanizar-texto-es/SKILL.md) | naturalizacion-texto-es |
 |---|---|---|
 | Objetivo | Evadir detectores | Calidad editorial real |
 | Errores tipográficos | Sí (deliberados) | No |
