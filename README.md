@@ -66,6 +66,47 @@ Ver el [ejemplo completo con informe](examples/ejemplo-basico.md).
 
 ---
 
+## Modo always-on
+
+El modo explícito de arriba requiere que pidas "naturalizar" un texto puntual y siempre entrega un informe (Output A + Output B). El **modo always-on** es distinto: hace que Claude naturalice automáticamente *todo* el texto en español que escribe (respuestas, documentos, emails), sin que tengas que pedirlo y sin mostrar ningún informe — de forma silenciosa, como escribiría una persona.
+
+No es una skill que Claude decida invocar: es un bloque de instrucciones que vive en tu `CLAUDE.md`, así que se carga siempre, en cada turno. La skill completa con diagnóstico sigue disponible en paralelo para cuando pidas naturalizar un texto específico.
+
+El snippet listo para copiar está en [`always-on/CLAUDE-SNIPPET.md`](always-on/CLAUDE-SNIPPET.md).
+
+### Instalación global (todos tus proyectos)
+
+Añade el contenido del snippet al final de tu `CLAUDE.md` global:
+
+```bash
+cat always-on/CLAUDE-SNIPPET.md >> ~/.claude/CLAUDE.md
+```
+
+En Windows (PowerShell):
+
+```powershell
+Get-Content always-on/CLAUDE-SNIPPET.md | Add-Content $HOME\.claude\CLAUDE.md
+```
+
+### Instalación en un proyecto puntual
+
+Si solo quieres que aplique dentro de un proyecto concreto, añádelo al `CLAUDE.md` de ese proyecto en vez del global:
+
+```bash
+cat always-on/CLAUDE-SNIPPET.md >> /ruta/a/tu-proyecto/CLAUDE.md
+```
+
+### Diferencias entre los dos modos
+
+| | Modo explícito (skill) | Modo always-on (CLAUDE.md) |
+|---|---|---|
+| Cómo se activa | Frases gatillo o `/naturalizacion-texto-ia` | Siempre, sin pedirlo |
+| Alcance | Un texto puntual que pegas o indicas | Todo el texto en español que Claude escribe |
+| Output | Texto naturalizado + informe de diagnóstico | Solo el texto naturalizado, sin informe |
+| Uso típico | Revisar/mejorar un texto ya escrito (propio o de otra IA) | Que las respuestas y documentos de Claude no suenen a IA desde el principio |
+
+---
+
 ## Qué hace la skill
 
 Aplica **11 técnicas lingüísticas** en un único pase de reescritura y genera dos outputs:

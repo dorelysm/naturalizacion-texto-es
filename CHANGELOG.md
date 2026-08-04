@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.0] — 2026-08-03
+
+### Modo always-on
+
+- Nuevo `always-on/CLAUDE-SNIPPET.md`: versión condensada de las reglas de naturalización pensada para vivir en `CLAUDE.md` (global o de proyecto), aplicándose de forma continua y silenciosa a todo el texto en español, sin frases gatillo ni informe
+- README: nueva sección "Modo always-on" con instalación global y por proyecto, y tabla comparativa frente al modo explícito de la skill
+- Nuevo ejemplo [`examples/ejemplo-always-on.md`](examples/ejemplo-always-on.md) mostrando la salida en modo silencioso (solo Output A)
+- El modo explícito (`SKILL.md`, con Output A + Output B) no cambia
+
 ## [1.0.0] — 2026-07-24
 
 ### Lanzamiento inicial
