@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.1.0] — 2026-08-03
+## [1.1.0] — 2026-08-03 ([2b8cd98](https://github.com/dorelysm/naturalizacion-texto-es/commit/2b8cd98))
 
 ### Modo always-on
 
