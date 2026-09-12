@@ -55,6 +55,7 @@ A fin de cuentas, lo que determina si el trabajo remoto funciona no es la tecnol
 | Diversidad léxica (TTR est.) | ~0.38 | ~0.58 | > 0.50 ✓ |
 | Voz pasiva | ~35% | ~10% | 10-20% ✓ |
 | Marcadores discursivos del español | Ausentes | 3 presentes | Presentes ✓ |
+| Marcas técnicas/tipográficas Tier 5 | 0 encontradas | 0 | ✓ |
 
 ### Puntuación de naturalidad
 
@@ -65,4 +66,5 @@ A fin de cuentas, lo que determina si el trabajo remoto funciona no es la tecnol
 | Marcadores discursivos del español | 18/20 | "Y tiene sentido", "Claro que", "Ahí es donde", "A fin de cuentas" |
 | Eliminación de conectores IA y guiones | 20/20 | 0 conectores Tier 1, 0 guiones largos en el output |
 | Coherencia tonal y morfosintaxis | 17/20 | Tono divulgativo preservado; voz activa dominante |
-| **TOTAL** | **91/100** | |
+| Ausencia de marcas técnicas y tipográficas IA (Tier 5) | 20/20 | El input no contenía caracteres Tier 5; ninguno se introdujo en la reescritura |
+| **TOTAL** | **111/120** | |

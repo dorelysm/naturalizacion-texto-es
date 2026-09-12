@@ -73,6 +73,31 @@ Cheatsheet de reemplazos para los conectores, palabras y patrones más caracter�
 
 ---
 
+## Tier 5 — Marcas técnicas y tipográficas de IA
+
+### 5a. Caracteres invisibles y watermarking
+
+| Marca | Código Unicode | Tratamiento |
+|---|---|---|
+| Zero-width space | U+200B | Eliminar |
+| Zero-width non-joiner / joiner | U+200C, U+200D | Eliminar |
+| BOM / zero-width no-break space | U+FEFF | Eliminar |
+| Variation selectors | U+FE00–U+FE0F, U+E0100–U+E01EF | Eliminar (fuera de uso legítimo con emoji) |
+| Homoglifos cirílicos/latinos comunes | а (U+0430) → a, е (U+0435) → e, і (U+0456) → i, о (U+043E) → o, р (U+0440) → p, с (U+0441) → c | Sustituir por el latino equivalente |
+| Watermarking estadístico de tokens (tipo SynthID) | No aplica código puntual — patrón de selección de tokens | No detectable por lectura; se mitiga indirectamente al reescribir con variación léxica propia |
+
+### 5b. Tipografía sospechosa visible
+
+| Marca | Código Unicode | Sustitución |
+|---|---|---|
+| Comillas curvas dobles " " | U+201C, U+201D | «» o "" rectas, según estilo del documento |
+| Comillas curvas simples ' ' | U+2018, U+2019 | '' rectas o suprimir si es apóstrofo mal codificado |
+| Puntos suspensivos unicarácter … | U+2026 | Tres puntos "..." |
+| NBSP atípico | U+00A0 | Espacio normal U+0020 (excepto en unidades: "20 °C") |
+| En-dash mal usado – | U+2013 | Coma o paréntesis según Tier 4 (excepto en rangos numéricos: "2020-2024") |
+
+---
+
 ## Marcadores discursivos del español para usar
 
 Expresiones que los modelos de IA raramente producen de forma espontánea y que dan naturalidad al texto:

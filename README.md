@@ -35,7 +35,7 @@ Copia el contenido de `.claude/skills/naturalizacion-texto-ia/` al directorio an
 {
   "name": "naturalizacion-texto-ia",
   "description": "Naturaliza texto en español generado por IA para mejorar su calidad editorial.",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "author": { "name": "Dorelys Martinez" }
 }
 ```
@@ -62,7 +62,7 @@ Luego pega el texto directamente en el chat o indica la ruta de un archivo `.txt
 **Salida (texto naturalizado):**
 > El trabajo remoto tiene ventajas que ya no sorprenden a nadie. Y tiene sentido: la flexibilidad de horarios incide directamente en el bienestar de quien trabaja. A fin de cuentas, lo que marca la diferencia no es la tecnología, sino cómo se comunican los equipos.
 
-Ver el [ejemplo completo con informe](examples/ejemplo-basico.md).
+Ver el [ejemplo completo con informe](examples/ejemplo-basico.md), o el [ejemplo de detección de marcas técnicas/tipográficas](examples/ejemplo-marcas-tecnicas.md) (Tier 5).
 
 ---
 
@@ -141,6 +141,9 @@ Aplica **11 técnicas lingüísticas** en un único pase de reescritura y genera
 **Tipografía:**
 Guiones largos (—) → siempre reemplazados por paréntesis o coma
 
+**Marcas técnicas/tipográficas (Tier 5):**
+Caracteres invisibles y watermarking (zero-width space, variation selectors, homoglifos), tipografía sospechosa visible (comillas curvas, puntos suspensivos unicarácter "…", NBSP atípico, en-dash mal usado)
+
 Ver la tabla completa de sustituciones con alternativas concretas en [SUBSTITUTIONS.md](SUBSTITUTIONS.md).
 
 ---
@@ -153,7 +156,7 @@ La skill está fundamentada en investigación académica 2023-2026:
 - **Burstiness rítmica** — la variación de longitud oracional tiene correlación de Pearson >0.7 con la detección de texto IA ([Xia et al., EACL 2026](https://arxiv.org/pdf/2601.07974))
 - **Marcadores culturales** — el español tiene marcadores discursivos propios que los modelos omiten ([González Ledesma, 2024](https://www.analedesma.es/los-marcadores-discursivos-linguistica-computacional-e-inteligencia-artificial/))
 
-Ver todas las referencias en [REFERENCES.md](.claude/skills/naturalizacion-texto-ia/REFERENCES.md) (27 fuentes).
+Ver todas las referencias en [REFERENCES.md](.claude/skills/naturalizacion-texto-ia/REFERENCES.md) (30 fuentes).
 
 ---
 
@@ -166,6 +169,7 @@ Ver todas las referencias en [REFERENCES.md](.claude/skills/naturalizacion-texto
 | Guiones largos | No trata | Eliminación obligatoria |
 | Morfosintaxis del español | No | Sí (pro-drop, clíticos, subjuntivo) |
 | Diagnóstico cuantitativo | No | Sí (TTR, voz pasiva, conectores) |
+| Marcas técnicas/watermarking | No trata | Sí (Tier 5) |
 
 ---
 

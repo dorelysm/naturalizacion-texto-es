@@ -51,6 +51,18 @@ Documentación de las fuentes que fundamentan las decisiones de diseño de esta 
 
 ---
 
+## Watermarking y marcas técnicas (añadido en v1.2.0)
+
+| # | Título / Fuente | Tipo | Año | URL | Aporte a la skill |
+|---|---|---|---|---|---|
+| 28 | SynthID (documentación pública de Google DeepMind sobre watermarking de texto generado por IA) | Documentación de producto | 2023-2024 | PENDIENTE: verificar cita exacta (deepmind.google/technologies/synthid) | Referencia de que existen esquemas de watermarking estadístico a nivel de token; fundamenta la advertencia de Tier 5a de que esto no es detectable por lectura de caracteres |
+| 29 | PENDIENTE: verificar cita — investigación sobre detección/explotación de caracteres Unicode invisibles como marca de agua en texto (zero-width characters, variation selectors) | Paper académico | 2023-2025 (a confirmar) | PENDIENTE | Fundamenta Tier 5a; nota: la práctica de insertar caracteres invisibles como firma es conocimiento general de esteganografía de texto, pero no hay cita específica verificada aquí — no inventar autores/DOI |
+| 30 | PENDIENTE: verificar cita — guía de tipografía española (RAE/Fundéu) sobre uso correcto de comillas, puntos suspensivos y guiones | Referencia normativa | — | PENDIENTE (candidatos: fundeu.es, rae.es) | Fundamenta las reglas de sustitución Tier 5b |
+
+> **Nota de honestidad de fuentes:** Las entradas 29 y 30 documentan mecanismos de conocimiento técnico general que no requieren necesariamente un paper específico, pero se dejan marcadas como "PENDIENTE: verificar cita" para no atribuir una fuente inventada. Si la autora encuentra una fuente concreta, reemplazar el placeholder antes de publicar.
+
+---
+
 ## Skill de referencia
 
 | # | Recurso | URL | Aporte |
@@ -59,4 +71,4 @@ Documentación de las fuentes que fundamentan las decisiones de diseño de esta 
 
 ---
 
-*Última actualización: 2026-07-24*
+*Última actualización: 2026-09-12*

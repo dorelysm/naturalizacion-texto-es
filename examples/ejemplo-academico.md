@@ -38,11 +38,19 @@ A fin de cuentas, el debate no se resolverá solo con mejores detectores. Las in
 
 ### Nota sobre la paradoja académica
 
-El texto original es académico. La naturalización respeta íntegramente el registro formal: no se introducen contracciones coloquiales, ni expresiones conversacionales, ni anécdotas personales. Los cambios se concentran en:
+El texto original es académico. La naturalización respeta íntegramente el registro formal: no se introducen contracciones coloquiales, ni expresiones conversacionales, ni anécdotas personales. Aplicando la guía operativa qué SÍ / qué NO tocar:
+
+**Qué se tocó:**
 - Variar la longitud oracional (de uniforme a 8-42 palabras)
-- Sustituir conectores Tier 1 por alternativas más integradas
+- Sustituir conectores Tier 1 por alternativas más integradas ("dicho esto", "a fin de cuentas"), aun siendo un texto formal, porque son muletillas de redacción, no terminología del campo
 - Añadir posicionamiento autoral sin abandonar el tono académico
 - Eliminar el guión largo (—) reformulando la cláusula
+
+**Qué NO se tocó:**
+- Terminología técnica precisa ("perplejidad léxica", "burstiness rítmica") se conservó intacta, sin sustituir por sinónimos informales
+- La estructura argumentativa introducción→desarrollo→conclusión propia del género no se alteró, solo se rompió la estructura genérica "definición→importancia→tipos→conclusión"
+- No se introdujeron marcadores coloquiales (Técnica 3 completa); los marcadores usados ("dicho esto", "a fin de cuentas") mantienen registro formal
+- La voz pasiva/impersonal convencional del género se mantuvo donde correspondía, sin forzar pro-drop o voz activa
 
 ### Técnicas aplicadas y cambios destacados
 
@@ -64,6 +72,7 @@ El texto original es académico. La naturalización respeta íntegramente el reg
 | Voz pasiva | ~30% | ~15% | 10-20% ✓ |
 | Marcadores discursivos del español | Ausentes | 3 presentes | Presentes ✓ |
 | Registro académico preservado | — | Sí | Sí ✓ |
+| Marcas técnicas/tipográficas Tier 5 | 0 encontradas | 0 | ✓ |
 
 ### Puntuación de naturalidad
 
@@ -74,4 +83,7 @@ El texto original es académico. La naturalización respeta íntegramente el reg
 | Marcadores discursivos del español | 17/20 | "Dicho esto", "paradójicamente", "A fin de cuentas" integrados en tono formal |
 | Eliminación de conectores IA y guiones | 20/20 | 0 conectores Tier 1, 0 guiones largos |
 | Coherencia tonal y morfosintaxis | 19/20 | Registro académico íntegramente preservado; voz activa dominante |
-| **TOTAL** | **90/100** | |
+| Ausencia de marcas técnicas y tipográficas IA (Tier 5) | 20/20 | El input no contenía caracteres Tier 5; ninguno se introdujo en la reescritura |
+| **TOTAL** | **110/120** | |
+
+> **Nota (registro académico):** los puntajes de "Variación rítmica y surprisal" (18/20) y "Diversidad léxica" (16/20) no llegan al máximo de forma deliberada: la terminología estandarizada del campo ("perplejidad léxica", "burstiness rítmica") limita el margen de variación léxica sin comprometer la precisión técnica. Esto es fidelidad al registro académico, no un fallo de naturalización.
