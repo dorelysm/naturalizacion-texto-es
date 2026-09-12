@@ -1,5 +1,6 @@
 # naturalizacion-texto-es
 
+![Versión](https://img.shields.io/badge/versión-1.2.0-blueviolet)
 ![Idioma](https://img.shields.io/badge/idioma-Español-blue)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-skill-orange)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-green)
