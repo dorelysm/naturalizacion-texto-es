@@ -14,7 +14,7 @@ Gracias por querer mejorar esta skill. Aquí tienes las formas principales de ap
 Si detectas palabras o frases que delatan texto IA en español y no están en la lista negra:
 
 1. Abre un issue con `[lista negra] palabra o frase`
-2. Indica en qué tier encajaría (Tier 1-4) y por qué
+2. Indica en qué tier encajaría (Tier 1-5) y por qué
 3. PR directo a `SKILL.md` sección "Lista negra"
 
 ## Aportar ejemplos
@@ -31,6 +31,14 @@ Abre un issue describiendo:
 - El texto de entrada
 - Qué salió mal en el output
 - Qué esperabas que pasara
+
+## Publicar un release
+
+Al subir una nueva versión:
+
+1. Añade la entrada correspondiente en `CHANGELOG.md`
+2. Actualiza el campo `"version"` en `version.json` (el badge de versión del README lo lee automáticamente desde ahí, no hace falta tocar el README)
+3. Si aplica, actualiza también el `plugin.json` de ejemplo en `README.md`
 
 ## Código de conducta
 

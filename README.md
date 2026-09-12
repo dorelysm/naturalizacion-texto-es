@@ -1,6 +1,6 @@
 # naturalizacion-texto-es
 
-![Versión](https://img.shields.io/badge/versión-1.2.0-blueviolet)
+![Versión](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdorelysm%2Fnaturalizacion-texto-es%40main%2Fversion.json&query=%24.version&label=versi%C3%B3n&color=blueviolet)
 ![Idioma](https://img.shields.io/badge/idioma-Español-blue)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-skill-orange)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-green)
